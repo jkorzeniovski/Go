@@ -1,2 +1,2 @@
 # Go
-getting into golang
+getting into golang with GoByExample
