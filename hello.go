@@ -79,6 +79,17 @@ func arrays(){
 	fmt.Println(ar1)
 }
 
+func slices(){
+	sl1 := make([]string, 3)
+	sl1[0] = "x"
+	sl1[1] = "d"
+	sl1[2] = "b"
+	fmt.Println(sl1)
+
+	// sl1 = append(sl1, "h")
+	// fmt.Println(sl1) // wywala odmowe dostępu
+}
+
 func main(){
 	fmt.Println("go" + "lang")
 	//fmt.Println(true && true)
@@ -89,4 +100,5 @@ func main(){
 	ifs()
 	switches()
 	arrays()
+	slices()
 }
